@@ -1,6 +1,7 @@
 import React from 'react'
 
 import NavLinkItem from './NavLinkItem'
+import Modal from './Modal';
 
 function NavBar() {
   return (
@@ -17,10 +18,7 @@ function NavBar() {
         text="Reportes"
         to="/"
         />
-        <NavLinkItem 
-        text="Reporta un Delito"
-        to="/"
-        />
+        <Modal/>
       </ul>
     </nav >
   )

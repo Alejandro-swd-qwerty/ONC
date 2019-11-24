@@ -10,6 +10,6 @@ a.map-link{
 }
 a.map-link:hover{
     font-size: 110%;
-    transition:1s;
+    transition:.6s;
     color:#3BA835;
 }
