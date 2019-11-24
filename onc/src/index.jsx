@@ -6,8 +6,8 @@ import App from './components/App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
-    <App />,
+  <App />,
 
- 
-    document.getElementById('root')
+
+  document.getElementById('root')
 )
