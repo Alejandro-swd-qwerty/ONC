@@ -5,7 +5,6 @@ import NavBar from './NavBar'
 import Banner from './Banner'
 import MapSection from "./MapSection";
 
-
 function App () {
     return(
         <div>
@@ -15,5 +14,4 @@ function App () {
         </div>
     )
 }
-
 export default App

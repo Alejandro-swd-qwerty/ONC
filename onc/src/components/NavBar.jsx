@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavLinkItem from './NavLinkItem'
 import Modal from './Modal';
+import ModalTest from './ModalTest';
 
 function NavBar() {
   return (

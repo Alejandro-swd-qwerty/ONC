@@ -13,9 +13,11 @@ class Modal extends Component {
       active: !this.state.active
     })
   }
+  
+  
   render(){
     const classNames = ['exampleModal']
-  if (this.state.active) classNames.push('show')
+  if (this.state.active) classNames.push('shown.bs.modal')
   return(
     <div className="Modal">
       <button type="button" 
@@ -29,6 +31,8 @@ class Modal extends Component {
       </button>
       <div
         className={classNames.join(' ')}
+
+        
         aria-labelledby="exampleModal"
         >
       </div>
