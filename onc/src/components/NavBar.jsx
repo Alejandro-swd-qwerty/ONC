@@ -18,7 +18,7 @@ function NavBar() {
         to="/"
         />
         <NavLinkItem 
-        text="Descargas"
+        text="Reporta un Delito"
         to="/"
         />
       </ul>

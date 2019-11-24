@@ -4,16 +4,14 @@ import Alcaldia from './Alcaldia'
 
 function MapAlcaldias(props) {
   return (
-    <div className= "col-md-6  .align-middle p-5" >
-    <h5 className= "text-center">Lista de alcaldias</h5>
-      
+    <div className= "col-md-6  .col-sm-12 .col-md-12" >
+    <h3 className= "text-center">Lista de alcaldias</h3>
+      <h5>
       <ul class="justify-content-end">
         <Alcaldia 
         text="Alvaro Obregon" 
         to="/"
         />
-        
-        
         <Alcaldia 
         text="Azcapotzalco"
         to="/"
@@ -55,10 +53,29 @@ function MapAlcaldias(props) {
         to="/"
         />
         <Alcaldia 
-        text="Benito Juarez"
+        text="Milpa Alta"
         to="/"
         />
+        <Alcaldia 
+        text="Tlahuac"
+        to="/"
+        />
+        <Alcaldia 
+        text="Tlalpan"
+        to="/"
+        />
+        <Alcaldia 
+        text="Venustiano Carranza"
+        to="/"
+        />
+        <Alcaldia 
+        text="Xochimilco"
+        to="/"
+        />
+        
+        
       </ul>
+      </h5>
       </div>
   )
 

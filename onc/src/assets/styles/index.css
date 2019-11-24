@@ -4,3 +4,12 @@ body{
     height: 100%;
     overflow-y: auto;
 }
+a.map-link{
+    color: inherit; 
+    line-height: 1.6;
+}
+a.map-link:hover{
+    font-size: 110%;
+    transition:1s;
+    color:#3BA835;
+}
