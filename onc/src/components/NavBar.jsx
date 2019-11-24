@@ -10,6 +10,7 @@ function NavBar() {
             </a>
             <NavLinkItem />
         </nav >
+        
     )
 }
 
