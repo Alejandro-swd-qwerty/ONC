@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Alcadia from './Alcadia'
+import Alcadia from './Alcaldia'
 
 function MapAlcaldias() {
   return (
@@ -8,16 +8,52 @@ function MapAlcaldias() {
     <h5 className= "text-center">Lista de alcaldias</h5>
       
       <ul class="nav justify-content-end">
-        <NavLinkItem 
-        text=""
+        <Alcaldia 
+        text="Alvaro Obregon"
         to="/"
         />
-        <NavLinkItem 
-        text="Reportes"
+        <Alcaldia 
+        text="Azcapotzalco"
         to="/"
         />
-        <NavLinkItem 
-        text="Descargas"
+        <Alcaldia 
+        text="Benito Juarez"
+        to="/"
+        />
+        <Alcaldia 
+        text="Coyoacan"
+        to="/"
+        />
+        <Alcaldia 
+        text="Cuajimalpa"
+        to="/"
+        />
+        <Alcaldia 
+        text="Cuauhtemoc"
+        to="/"
+        />
+        <Alcaldia 
+        text="Gustavo A. Madero"
+        to="/"
+        />
+        <Alcaldia 
+        text="Iztacalco"
+        to="/"
+        />
+        <Alcaldia 
+        text="Iztapalapa"
+        to="/"
+        />
+        <Alcaldia 
+        text="Magdalena Contreras"
+        to="/"
+        />
+        <Alcaldia 
+        text="Miguel Hidalgo"
+        to="/"
+        />
+        <Alcaldia 
+        text="Benito Juarez"
         to="/"
         />
       </ul>
