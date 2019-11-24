@@ -1,17 +1,19 @@
 import React from 'react'
 
-import Alcadia from './Alcaldia'
+import Alcaldia from './Alcaldia'
 
-function MapAlcaldias() {
+function MapAlcaldias(props) {
   return (
     <div className= "col-md-6  .align-middle p-5" >
     <h5 className= "text-center">Lista de alcaldias</h5>
       
-      <ul class="nav justify-content-end">
+      <ul class="justify-content-end">
         <Alcaldia 
-        text="Alvaro Obregon"
+        text="Alvaro Obregon" 
         to="/"
         />
+        
+        
         <Alcaldia 
         text="Azcapotzalco"
         to="/"
