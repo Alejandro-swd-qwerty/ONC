@@ -10,7 +10,6 @@ function App () {
     return(
         <div>
             <NavBar />
-            <Banner/>
             <MapSection/>
             <Home />
         </div>
